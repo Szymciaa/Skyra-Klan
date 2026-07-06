@@ -1,0 +1,24 @@
+name: Skyra-Klan
+version: 1.0.0
+description: Professional Clan Plugin for Minecraft 1.21.4
+author: Szymciaa
+main: com.skyra.klan.SkyraKlanPlugin
+depend:
+  - Vault
+  - PlaceholderAPI
+
+commands:
+  klan:
+    description: Główna komenda pluginu Skyra-Klan
+    usage: /<command> [subkomenda]
+    aliases:
+      - k
+      - clan
+
+permissions:
+  skyraklan.use:
+    description: Pozwala na używanie pluginu Skyra-Klan
+    default: true
+  skyraklan.admin:
+    description: Pozwala na administrowanie klanami
+    default: op
