@@ -1,0 +1,24 @@
+# Konfiguracja pluginu Skyra-Klan
+
+# Ustawienia ogólne
+settings:
+  max-nazwa-length: 5
+  max-tag-length: 3
+
+# Ustawienia startowe klanu
+klan:
+  domyslne-miejsca: 5
+
+# Ceny ulepszeń klanu
+ulepszenia:
+  miejsca-1:
+    koszt: 5000
+    miejsca: 10
+  miejsca-2:
+    koszt: 10000
+    miejsca: 15
+
+# Wiadomości pluginu
+messages:
+  prefix: "&8[&6Skyra-Klan&8] &r"
+  brak-uprawnien: "&cNie masz uprawnień do wykonania tej komendy."
